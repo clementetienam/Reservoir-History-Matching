@@ -1,0 +1,14 @@
+--
+-- -----------------------------------------------------------------------------
+-- Office Grid non-geom, non-prop non-operational non-parallel keywords (GRDOTHERS) Data Section Version 2010.1 May 28 2010
+-- -----------------------------------------------------------------------------
+--
+-- File: MASTER0_GOTH.INC
+-- Created on: 30-Nov-2017 at: 02:39:05
+--
+-- *****************************************************************************
+-- *                                  WARNING                                  *
+-- *                THIS FILE HAS BEEN AUTOMATICALLY GENERATED.                *
+-- *          ANY ATTEMPT TO EDIT MANUALLY MAY RESULT IN INVALID DATA.         *
+-- *****************************************************************************
+--

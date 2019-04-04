@@ -1,0 +1,23 @@
+--
+-- -----------------------------------------------------------------------------
+-- Office Grid Header (GRIDGHDR) Data Section Version 2010.1 May 28 2010
+-- -----------------------------------------------------------------------------
+--
+-- File: MASTER0_GHDR.INC
+-- Created on: 30-Nov-2017 at: 02:39:05
+--
+-- *****************************************************************************
+-- *                                  WARNING                                  *
+-- *                THIS FILE HAS BEEN AUTOMATICALLY GENERATED.                *
+-- *          ANY ATTEMPT TO EDIT MANUALLY MAY RESULT IN INVALID DATA.         *
+-- *****************************************************************************
+--
+-- Off GRIDGHDR GRID Module GridType: "Cartesian"
+-- Off GRIDGHDR GRID Module NX:         19
+-- Off GRIDGHDR GRID Module NY:         28
+-- Off GRIDGHDR GRID Module NZ:          5
+-- Off GRIDGHDR GRID Module Grid Transformation:          6          3
+-- Off GRIDGHDR  0.0000000000000e+000  0.0000000000000e+000  1.0000000000000e+000
+-- Off GRIDGHDR  0.0000000000000e+000  0.0000000000000e+000  1.0000000000000e+000
+-- Off GRIDGHDR GRID Module Number of Layers:          1
+-- Off GRIDGHDR GRID Module Grid Item Status:          1

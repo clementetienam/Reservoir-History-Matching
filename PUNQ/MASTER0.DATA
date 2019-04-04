@@ -1,0 +1,148 @@
+--
+-- -----------------------------------------------------------------------------
+-- Office Simulation File (DATA) Data Section Version 2010.1 May 28 2010
+-- -----------------------------------------------------------------------------
+--
+-- File: MASTER0_E100.DATA
+-- Created on: 30-Nov-2017 at: 02:39:11
+--
+-- *****************************************************************************
+-- *                                  WARNING                                  *
+-- *                THIS FILE HAS BEEN AUTOMATICALLY GENERATED.                *
+-- *          ANY ATTEMPT TO EDIT MANUALLY MAY RESULT IN INVALID DATA.         *
+-- *****************************************************************************
+--
+ 
+RUNSPEC
+ 
+TITLE
+ PUNQ-S3 MODEL
+ 
+START
+ 1 'JAN' 1967 /
+ 
+METRIC
+ 
+UNIFIN
+ 
+UNIFOUT
+
+--FMTOUT
+
+--FMTIN
+
+GAS
+ 
+OIL
+ 
+WATER
+ 
+DISGAS
+ 
+NSTACK
+ 25 /
+ 
+EQLOPTS
+ 'QUIESC' /
+ 
+MONITOR
+ 
+RSSPEC
+ 
+MSGFILE
+ 1 /
+ 
+AQUDIMS
+ 0 0 0 0 2 168 0 2 /
+ 
+DIMENS
+ 19 28 5 /
+ 
+EQLDIMS
+ 1 100 100 1 1 /
+ 
+REGDIMS
+ 5 1 0 0 /
+ 
+TABDIMS
+ 1 1 20 20 5 20 20 1 /
+ 
+VFPIDIMS
+ 10 10 1 /
+ 
+VFPPDIMS
+ 10 10 10 10 1 1 /
+ 
+WELLDIMS
+ 20 40 2 20 /
+ 
+MESSAGES
+8* 10000 3* /
+ 
+ 
+GRID
+INIT
+INCLUDE
+'PORO2.GRDECL'/
+
+INCLUDE
+'PERMX2.GRDECL'/
+
+INCLUDE
+'PERMZ2.GRDECL'/
+
+COPY
+ 'PERMX'  'PERMY'  /
+/
+GRIDFILE
+ 2 /
+ 
+INIT
+ 
+INCLUDE
+'MASTER0_GOPP.INC'  /
+
+INCLUDE
+'MASTER0_GGO.INC'  /
+
+INCLUDE
+'MASTER0_GPRO.INC'  /
+
+INCLUDE
+'MASTER0_GOTH.INC'  /
+
+ 
+PROPS
+ 
+INCLUDE
+'MASTER0_PVT.INC'  /
+
+INCLUDE
+'MASTER0_SCAL.INC'  /
+
+
+REGIONS
+
+INCLUDE
+'MASTER0_REG.INC'  /
+
+ 
+SOLUTION
+ 
+INCLUDE
+'MASTER0_INIT.INC'  /
+
+ 
+SUMMARY
+ 
+INCLUDE
+'MASTER0_SUM.INC'  /
+
+ 
+SCHEDULE
+
+INCLUDE
+'MASTER0_SCH.INC'  /
+
+ 
+END
